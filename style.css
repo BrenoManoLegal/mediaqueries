@@ -1,0 +1,112 @@
+
+
+
+
+/* for mobile phones: */
+[class*="col-"] {
+    width: 100%;
+    .row
+}
+
+
+.row{
+    background-color: darkgray;
+}
+}
+
+    .img{
+        text-align: center;
+        background-color: gray;
+    }
+    * {
+        box-sizing: border-box;
+    }
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+    
+    
+    html {
+        font-family: "lucida Sans", sans-serif;
+    }
+    
+    .header {
+        background-color: gray;
+        color: #ffffff ;
+        padding: 15px;
+    }
+    .menu ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+    }
+    .menu li {
+        padding: 8px;
+        margin-bottom: 7px;
+        background-color: darkgrey;
+        color: #ffffff;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    }
+    
+    .menu li:hover {
+        background-color: darkgrey;
+    }
+    
+    .Cris {
+        background-color: gray;
+        padding: 15px;
+        color: #ffffff;
+        text-align:right;
+        font-size: 14px;
+        box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    }
+    
+
+
+    .footer {
+        background-color: darkgray;
+        color: #ffffff;
+        text-align: center;
+        font-size: 12px;
+        padding: 15px;
+    }
+
+    @media only screen and (min-width: 600px) and (max-width: 900px) {
+        .col-s-1 {width: 50%;}
+        .col-s-2 {width: 100%;}
+        .row{background-color: green;
+        color: white;}
+        .img{background-color: green;}
+        .footer{background-color: darkgreen;}
+        .Cris{background-color: darkgreen;}
+        .menu li{background-color: darkgreen;}
+        .Ronaldo{text-align: right;}
+    }
+    
+    @media only screen and (min-width: 900px) {
+        /*for desktop: */
+        .col-s-1 {width: 33.33%;}
+        .col-s-2 {width: 66.66%;}
+        .col-s-3 {width: 100%;}
+        .row{background-color: gray;
+            color: white;}
+            .img{background-color: gray;}
+            .footer{background-color: darkgray;}
+            .Cris{background-color: darkgray;}
+            .menu li{background-color: darkgray;}
+            .Ronaldo{text-align: center;}
+
+    }
+    @media only screen and (max-width: 600px) {
+    /* for mobile phones: */
+    .col-1 {width: 100%}
+    .row{background-color: blue;
+    color: white;}
+    .img{background-color: blue;}
+    .footer{background-color: darkblue;}
+    .Cris{background-color: darkblue;}
+    .menu li{background-color: darkblue;}
+    .Ronaldo{text-align: center;}
+}
